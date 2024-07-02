@@ -11,7 +11,7 @@ class welcome extends StatelessWidget {
         children: [
           Image.asset('assets/images/shades2.png'),
           const Padding(
-            padding: EdgeInsets.only(left: 0, right: 220, bottom: 20),
+            padding: EdgeInsets.only(left: 20, right: 180, bottom: 30),
             child: Text(
               'Welcome',
               style: TextStyle(fontSize: 50, fontWeight: FontWeight.bold),
@@ -19,7 +19,8 @@ class welcome extends StatelessWidget {
           ),
           Padding(
             padding: const EdgeInsets.only(
-              right: 250,
+              left: 20,
+              right: 210,
             ),
             child: SizedBox(
                 height: 40,
@@ -44,7 +45,7 @@ class welcome extends StatelessWidget {
                 )),
           ),
           Padding(
-            padding: const EdgeInsets.only(right: 220, top: 40),
+            padding: const EdgeInsets.only(right: 150, top: 40),
             child: SizedBox(
                 height: 40,
                 width: 200,
