@@ -11,7 +11,7 @@ class welcome extends StatelessWidget {
         children: [
           Image.asset('assets/images/shades2.png'),
           const Padding(
-            padding: EdgeInsets.only(left: 0, right: 220, bottom: 30),
+            padding: EdgeInsets.only(left: 0, right: 220, bottom: 20),
             child: Text(
               'Welcome',
               style: TextStyle(fontSize: 50, fontWeight: FontWeight.bold),
